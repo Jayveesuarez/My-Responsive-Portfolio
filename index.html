@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jayvee Suarez</title>
+
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<linl rel="icon" type="image/x-icon" href="img/prof.jpg"/>
+</head>
+<body>
+	
+	<!------Header Section------>
+	<header>
+		<a href="#" class="logo">Develo<span>per</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>Jayvee</h1>
+			<h3>Website <span>Developer</span></h3>
+			<p>I am passionate creating exceptional websites that leave a lasting impression on customers.</span></p>
+			<div class="button">
+				<a href="#about" class="btn">About Me</a>
+			</div>
+		</div>
+	</section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/prof.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Website Developer!</h4>
+			<p>I take great satisfaction in my work as an experienced web developer with over four years of dedicated practice.
+				 I've developed my talents in coding, design, and user experience along the way, allowing me to create great websites that stand out from the crowd. 
+				 My love for innovation leads me to stay current on industry trends and technologies,ensuring that my projects are on the cutting edge of digital breakthroughs.
+				Every project I work on is approached with rigorous attention to detail and a dedication to perfection, 
+				with the goal of producing seamless, user-friendly, and aesthetically beautiful experiences. 
+				I am dedicated to pushing the frontiers of web development and leaving a legacy because I believe in the potential of technology to revolutionize businesses and excite users.
+			</p>
+		</div>
+	</section>
+
+	<!-----------Services Section-------------->
+	<section class="services" id="services">
+	<div class="main-text">
+		<h2><span>My</span>Services</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-code-alt'></i>
+			</div>
+			<h3>Full-Stack Development</h3>
+			<p>Offering expertise in both front-end and back-end development to handle all aspects of a web project.</p>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-store-alt'></i>
+			</div>
+			<h3>E-commerce Development</h3>
+			<p>Creating online stores and integrating secure payment gateways to facilitate online transactions.</p>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-edit-alt'></i>
+			</div>
+			<h3>Responsive Web Design</h3>
+			<p>Ensuring that websites and applications are optimized for various devices, including desktops, tablets, and mobile phones.</p>
+		</div>
+	</div>
+
+</section>
+
+<!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2><span>My</span>Projects</h2>
+	</div>
+	<div class="portfolio-content">
+		<div class="row">
+			<img src="img/epcr.jpg" >
+			<div class="layer">
+				<h1>EPCR</h1>
+				<p>A mobile application alerts you when there's emergency</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/portal.jpg" >
+			<div class="layer">
+				<h1>Portal to Academic Information and Data</h1>
+				<p>School Portal for UPang Students and Teachers</p>
+			</div>
+		</div>
+
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Message<span>Me!</span></h2>
+		<h4>If you have thoughts about any projects.</h4>
+		<p>I'm a Website Developer who creates daring interface designs for companies all over the world.</p>
+		<div class="list">
+			<li>0930879843</li>
+			<li>suarezjayvee@gmail.com</li>
+		</div>
+
+		<div class="contact-icons">
+			<a href="https://www.facebook.com/jayvee.suarez.395"><i class='bx bxl-facebook'></i></a>
+			<a href="https://www.instagram.com/flaayzzuupp/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==&fbclid=IwAR1KLN2SW6HJQlxSKo84vyD3UC9QMMiieIRcpOSfCytXE-9vj8PPRBLWPzg"><i class='bx bxl-instagram-alt' ></i></a>
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form  id="contact-form" method="POST"  action="javascript:sendMail();">
+			<input type="text" placeholder=" Subject " name="subject" required>
+			<textarea name="mesage" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+	</div>
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>Suarezstudio's creations..</p>
+	</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+
+</html>
